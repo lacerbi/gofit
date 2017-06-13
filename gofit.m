@@ -6,12 +6,11 @@ function [g,gbar,output] = gofit(x,ll,method)
 %   data bin. X can also be a cell array of such data matrices.
 %   LL is the total estimated log likelihood of the data (ideally, computed
 %   via cross-validation methods, such as leave-one-out).
-%   The method is described in [1,2].
 %
 %   G = GOFIT(X,LL,METHOD) specifies the method used to estimate the entropy 
 %   of the data. METHOD can be:
-%       - 'grassberger' for the Grassberger estimator [3] (default)
-%       - 'nsb'         for the Nemenman-Shafee-Bialek (NSB) estimator [4]
+%       - 'grassberger' for the Grassberger estimator (default)
+%       - 'nsb'         for the Nemenman-Shafee-Bialek (NSB) estimator
 %       - 'mle'         for the maximum likelihood or 'plug-in' estimator
 %
 %   [G,GBAR] = GOFIT(...) also returns the absolute goodness of fit of the
@@ -24,10 +23,6 @@ function [g,gbar,output] = gofit(x,ll,method)
 %   [2] Acerbi, L., Dokka, K., Angelaki, D. E. & Ma, W. J. (2017). Bayesian 
 %   comparison of explicit and implicit causal inference strategies in 
 %   multisensory heading perception. bioRxiv.
-%   [3] Grassberger, P. (2003). Entropy estimates from insufficient samplings. 
-%   arXiv preprint physics/0307138.
-%   [4] Nemenman, I., Shafee, F., & Bialek, W. (2001). Entropy and inference, 
-%   revisited. arXiv preprint physics/0108025.
 %
 %   See also GRASSENT, NSBENT.
 
