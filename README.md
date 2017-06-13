@@ -10,3 +10,7 @@ The method was used in Shen & Ma (2016), and is slightly extended in Acerbi et a
 
 1. Shen, S., & Ma, W. J. (2016). A detailed comparison of optimality and simplicity in perceptual decision making. *Psychological Review* 123(4): 452-80.
 2. Acerbi, L., Dokka, K., Angelaki, D. E. & Ma, W. J. (2017). Bayesian comparison of explicit and implicit causal inference strategies in  multisensory heading perception. *bioRxiv preprint*.
+
+### License
+
+*gofit* is released under the terms of the [GNU General Public License v3.0](https://github.com/lacerbi/gofit/blob/master/LICENSE.txt).
